@@ -2,41 +2,10 @@
 // This test has a problem with it -- make the test compile! Make the test
 // pass! Make the test fail! Scroll down for hints :)
 
-#[cfg(test)]
-mod tests {
-    #[test]
-    fn you_can_assert_eq() {
-        assert_eq!();
-    }
+fn main() {
+        //assert_eq!(1, 2.1);
+        assert_eq!(1, 21);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // Like the previous exercise, you don't need to write any code to get this test to compile and
 // run. `assert_eq!` is a macro that takes two arguments and compares them. Try giving it two

@@ -6,39 +6,10 @@
 // This test has a problem with it -- make the test compile! Make the test
 // pass! Make the test fail! Scroll down for hints :)
 
-#[cfg(test)]
-mod tests {
-    #[test]
-    fn you_can_assert() {
-        assert!();
-    }
+fn main() {
+        assert!(1==1);
+        // assert!(false);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
