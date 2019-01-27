@@ -14,14 +14,24 @@ fn main() {
         println!("Neither alphabetic nor numeric!");
     }
 
-    let // Finish this line like the example! What's your favorite character?
+    // Finish this line like the example! What's your favorite character?
     // Try a letter, try a number, try a special character, try a character
     // from a different language than your own, try an emoji!
+    let your_character = '3';
     if your_character.is_alphabetic() {
-        println!("Alphabetical!");
+        println!("{} is Alphabetical!", your_character);
     } else if your_character.is_numeric() {
-        println!("Numerical!");
+        println!("{} is Numerical!", your_character);
     } else {
-        println!("Neither alphabetic nor numeric!");
+        println!("{} is Neither alphabetic nor numeric!", your_character);
+    }
+
+    let your_character = '$';
+    if your_character.is_alphabetic() {
+        println!("{} is Alphabetical!", your_character);
+    } else if your_character.is_numeric() {
+        println!("{} is Numerical!", your_character);
+    } else {
+        println!("{} is Neither alphabetic nor numeric!", your_character);
     }
 }
