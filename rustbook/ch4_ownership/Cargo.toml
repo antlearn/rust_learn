@@ -1,0 +1,7 @@
+[package]
+name = "ch4_ownership"
+version = "0.1.0"
+authors = ["BjmWang <Benjamin.mj.wang@gmail.com>"]
+edition = "2018"
+
+[dependencies]
