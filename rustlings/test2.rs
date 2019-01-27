@@ -11,12 +11,7 @@ pub fn times_two(num: i32) -> i32 {
     num * 2
 }
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    fn returns_twice_of_positive_numbers() {
-        assert_eq!(4, 4);
-    }
+fn main() {
+    assert_eq!(4, times_two(2));
+    assert_eq!(4, times_two(3));
 }
