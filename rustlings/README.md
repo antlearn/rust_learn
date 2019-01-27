@@ -1,4 +1,4 @@
-![crab pet](http://i.imgur.com/LbZJgmm.gif) 
+![crab pet](http://i.imgur.com/LbZJgmm.gif)
 
 # rustlings 🦀❤️
 
@@ -33,13 +33,58 @@ If you choose to not install the `rustlings` command, just replace `rustlings` w
 
 ## Doing exercises
 
-The exercises are sorted by topic and can be found in the subdirectory `rustlings/exercises/<topic>`. For every topic there is an additional README file with some resources to get you started on the topic. We really recommend that you have a look at them before you start. 
+The exercises are sorted by topic and can be found in the subdirectory `rustlings/exercises/<topic>`. For every topic there is an additional README file with some resources to get you started on the topic. We really recommend that you have a look at them before you start.
 
 The task is simple. Most exercises contain an error that keep it from compiling, and it's up to you to fix it! Some exercises are also ran as tests, but rustlings handles them all the same. To run the exercises in the recommended order, execute:
 
 ```bash
 rustlings verify
 ```
+
+'''
+    compile_only("exercises/variables/variables1.rs")?;
+    compile_only("exercises/variables/variables2.rs")?;
+    compile_only("exercises/variables/variables3.rs")?;
+    compile_only("exercises/variables/variables4.rs")?;
+    test("exercises/if/if1.rs")?;
+    compile_only("exercises/functions/functions1.rs")?;
+    compile_only("exercises/functions/functions2.rs")?;
+    compile_only("exercises/functions/functions3.rs")?;
+    compile_only("exercises/functions/functions4.rs")?;
+    compile_only("exercises/functions/functions5.rs")?;
+    compile_only("exercises/test1.rs")?;
+    compile_only("exercises/primitive_types/primitive_types1.rs")?;
+    compile_only("exercises/primitive_types/primitive_types2.rs")?;
+    compile_only("exercises/primitive_types/primitive_types3.rs")?;
+    compile_only("exercises/primitive_types/primitive_types4.rs")?;
+    compile_only("exercises/primitive_types/primitive_types5.rs")?;
+    compile_only("exercises/primitive_types/primitive_types6.rs")?;
+    test("exercises/tests/tests1.rs")?;
+    test("exercises/tests/tests2.rs")?;
+    test("exercises/tests/tests3.rs")?;
+    test("exercises/test2.rs")?;
+    compile_only("exercises/strings/strings1.rs")?;
+    compile_only("exercises/strings/strings2.rs")?;
+    compile_only("exercises/test3.rs")?;
+    compile_only("exercises/modules/modules1.rs")?;
+    compile_only("exercises/modules/modules2.rs")?;
+    compile_only("exercises/macros/macros1.rs")?;
+    compile_only("exercises/macros/macros2.rs")?;
+    compile_only("exercises/macros/macros3.rs")?;
+    compile_only("exercises/macros/macros4.rs")?;
+    compile_only("exercises/test4.rs")?;
+    compile_only("exercises/move_semantics/move_semantics1.rs")?;
+    compile_only("exercises/move_semantics/move_semantics2.rs")?;
+    compile_only("exercises/move_semantics/move_semantics3.rs")?;
+    compile_only("exercises/move_semantics/move_semantics4.rs")?;
+    test("exercises/error_handling/errors1.rs")?;
+    test("exercises/error_handling/errors2.rs")?;
+    test("exercises/error_handling/errors3.rs")?;
+    test("exercises/error_handling/errorsn.rs")?;
+    compile_only("exercises/error_handling/option1.rs")?;
+    test("exercises/error_handling/result1.rs")?;
+'''
+
 
 This will try to verify the completion of every exercise in a predetermined order (what we think is best for newcomers). If you don't want to rerun `verify` every time you change a file, you can run:
 
