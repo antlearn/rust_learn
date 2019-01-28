@@ -13,3 +13,4 @@ Cargo.lock
 # rustc generated on Windows
 *.exe
 *.pdb
+*.o

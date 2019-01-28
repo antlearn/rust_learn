@@ -1,7 +1,7 @@
 // modules2.rs
 // Make me compile! Scroll down for hints :)
 
-mod delicious_snacks { 
+mod delicious_snacks {
     use self::fruits::PEAR as fruit;
     use self::veggies::CUCUMBER as veggie;
 
@@ -21,22 +21,6 @@ fn main() {
              delicious_snacks::fruit,
              delicious_snacks::veggie);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // The delicious_snacks module is trying to present an external
 // interface (the `fruit` and `veggie` constants) that is different than
